@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	}
+#content{
+	height: 100%;
+	width: 100%;
+	background-color: yellow;
+	}
+.khoi1 {
+	height: 50%;
+	}
+.khoi11,.khoi12,.khoi13,.khoi14{
+	width: 25%;
+	float: left;
+	}
+.khoi2 {
+	height: 50%;
+	}
+.khoi21,.khoi22,.khoi23,.khoi24{
+	width: 25%;
+	float: left;
+	}
+h1:hover {
+	background-color: green;
+}
+a:hover {
+	background-color: yellow;
+}
+a:link{
+	color: red;
+}
+a:visited{
+	color: green;
+}
+a:active{
+	color: blue;
+}
