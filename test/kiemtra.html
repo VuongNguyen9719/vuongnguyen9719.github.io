@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			color: red;
+			background-color
+		}
+		.khoi1 {
+			color: white;
+			width: 100%;
+			height:20px;
+			line-height: 20px;
+			text-align: center;
+		}
+		.khoi2 {
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+		}
+		.khoi3-mot , .khoi3-ba {
+			height: 200px;
+			line-height: 200px;
+			text-align: center;
+		}
+		.a, .b, .c {
+			background-color: #d9d9d9;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<section class="khoi3" style="display: flex;">
+			<div class="khoi3-mot" style="width: 20%;margin-right: 5px;background-color: #d9d9d9">height 200px</div>
+			<section class="khoi3-hai" style="width: 60%;display: grid;grid-template-columns: auto auto;grid-template-rows: auto auto;grid-row-gap: 10px;grid-column-gap: 5px; ">
+				<div class="a"></div>
+				<div class="a"></div>
+				<div class="a"></div>
+				<div class="a"></div>
+			</section>
+			<div class="khoi3-ba" style="width: 20%;margin-left: 5px;background-color: #d9d9d9">height 200px</div>
+		</div>
+		<div style="width: 60%;height: 30px;line-height: 30px;margin:auto;text-align: center;margin-top: 20px;margin-bottom: 20px;background-color: #d8d8d8">width 60%</div>
+		<section class="khoi4" style="display: grid;grid-template-columns: 20% 30% 50%;grid-column-gap: 10px;height: 100px;line-height: 100px;text-align: center;margin-bottom: 20px;margin-right: 20px;">
+			<div class="b">2</div>
+			<div class="b">3</div>
+			<div class="b">5</div>
+		</section>
+		<section class="khoi5" style="display: flex;height: 1200px;text-align: center;margin-bottom: 20px;">
+			<div style="flex-grow: 1;margin-right: 10px;">
+				<div>
+					<div style="height: 300px;line-height: 300px;margin-bottom: 20px;background-color: #d9d9d9">height 300px</div>
+					<div style="height: 300px;line-height: 300px;margin-bottom: 20px;background-color: #d9d9d9">height 300px</div>
+					<div style="height: 300px;line-height: 300px;margin-bottom: 20px;background-color: #d9d9d9">height 300px</div>
+				</div>
+			</div>
+			<div style="flex-grow: 1;margin-right: 10px;">
+				<div>
+					<div style="height: 350px;line-height: 350px;margin-bottom: 20px;background-color: #d9d9d9">height 350px</div>
+					<div style="height: 500px;line-height: 500px;margin-bottom: 20px;background-color: #d9d9d9">height 350px</div>
+				</div>
+			</div>
+			<div style="flex-grow: 1;">
+				<div>
+					<div style="height:200px;line-height: 200px;margin-bottom: 20px;background-color: #d9d9d9">height 200px</div>
+					<div style="height: 300px;line-height: 300px;margin-bottom: 20px;background-color: #d9d9d9">height 300px</div>
+					<div style="height: 500px;line-height: 500px;margin-bottom: 20px;background-color: #d9d9d9">height 500</div>
+				</div>
+			</div>
+		</section>
+		<div style="" class="khoi6">
+			<section style="width: 100%;display: flex;">
+				<div style="width: calc(100%/6);background-color: #cd8686;height: calc(100%/6)">1</div>
+				<div style="width: calc(100%/6);background-color: #c34acd">2</div>
+				<div style="width: calc(100%/6);background-color: #b51717">3</div>
+				<div style="width: calc(100%/6);background-color: #b28080">4</div>
+				<div style="width: calc(100%/6);background-color: #53998d">5</div>
+				<div style="width: calc(100%/6);background-color: #43508a">6</div>
+			</section>
+			<div style="width: 100%"></div>
+		</div>
+	</div>
+</body>
+</html>
