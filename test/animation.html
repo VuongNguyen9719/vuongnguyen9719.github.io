@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.fade {
+			width: 500px;
+			height: 500px;
+			background-color: red;
+			position: relative;
+			top: 0;left: 0;
+			animation: fade 10s infinite;
+			transition: animation 10s;
+		}
+		@keyframes fade {
+			0% {
+				opacity: 1;
+			}
+			10% {
+				opacity: 0.8;
+			}
+			20% {
+				opacity: 0.6;
+			}
+			30% {
+				opacity: 0.4;
+			}
+			40% {
+				opacity: 0.2;
+			}
+			50% {
+				opacity: 0;
+			}
+			60% {
+				opacity: 0.2;
+			}
+			70% {
+				opacity: 0.4;
+			}
+			80% {
+				opacity: 0.6;
+			}
+			90% {
+				opacity: 0.8;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+		.move {
+			position: relative;
+			font-size: 50px;
+			top: 500px;
+			left: 0;
+			transition: animation 5s;
+			animation: moe 5s infinite;
+		}
+		@keyframes moe {
+			0% {
+				opacity: 1;
+				left: 0;
+				top: 0;
+			}
+			20% {
+				opacity: 0.8;
+				left: 20%;
+				top: 0;
+			}
+			40% {
+				opacity: 0.6;
+				left: 40%;
+				top: 0;
+			}
+			60% {
+				opacity: 0.4;
+				left: 60%;
+				top: 0;
+			}
+			80% {
+				opacity: 0.2;
+				left: 80%;
+				top: 0;
+			}
+			100% {
+				opacity: 0;
+				left: 100%;
+				top: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="fade"></div>
+	<div class="move">ABC</div>
+</body>
+</html>

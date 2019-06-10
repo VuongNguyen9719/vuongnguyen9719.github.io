@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.mot {
+			animation: a 3s infinite;
+			transition: animation 3s;
+		}
+		.hai {
+			animation: b 3s infinite;
+			transition: animation 3s;
+		}
+		.ba {
+			animation: c 3s infinite;
+			transition: animation 3s;
+		}
+		@keyframes a {
+			33% {
+				opacity: 1;
+			}
+			66% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes b {
+			33% {
+				opacity: 0;
+			}
+			66% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+		@keyframes c {
+			33% {
+				opacity: 0;
+			}
+			66% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div style="display: inline-block;position: absolute; left: 50%;">
+		
+		<div>START</div>
+		<div class="mot" style="background-color: red; position: relative;">LEARNING</div>
+		<div class="hai" style="background-color: yellow;position: absolute;top: 18px;">CODING</div>
+		<div class="ba" style="background-color: violet;position: absolute;top: 18px;">TEACHING</div>
+		<div>TODAY</div>
+
+	</div>
+</body>
+</html>
