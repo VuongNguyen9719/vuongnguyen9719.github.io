@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function taoAcc() {
+			var ten = document.form["myForm"]["username"].value;
+			if (ten =="" && ten.length >20) {
+				alert ("Vui long nhap lai ");
+				return false;
+			}
+
+			var pass = document.form["myForm"]["userpass"].value;
+			if (pass.length <6 && pass.length >32) {
+				alert ("Vui long nhap lai ");
+				return false;
+			}
+
+			var confirm = document.form["myForm"]["confirm"].value;
+			if (pass.length != confirm.length) {
+				alert ("Vui long nhap lai ")
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="myForm" onsubmit="return taoAcc()">
+		User name : <br>
+		<input type="text" name="username">
+		<br>
+		User Password : <br>
+		<input type="password" name="userpass">
+		<br>
+		confirm : <br>
+		<input type="password" name="confirm">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
