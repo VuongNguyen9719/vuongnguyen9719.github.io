@@ -137,5 +137,5 @@ function checkTheDoor(num) {
 	return isClosed
 }
 
-
+checkTheDoor (num)
 
