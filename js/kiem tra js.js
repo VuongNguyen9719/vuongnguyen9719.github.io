@@ -196,6 +196,9 @@ checkChuoi ("hello world","hey");
 
 // xử lý object
 
+//bài 1
+
+
 //bài 2
 
 let hocSinh = [
@@ -298,29 +301,21 @@ locMang ([1,false,0,"",null,undefined,NaN]);
 
 // bài 2
 
-function a (arr_1,arr_2) {
-	var newArr = [];
-	var check = 0;
-	for (var i = 0; i < arr_1.length; i++) {
-		for (j=0; j < arr_2.length; j++) {
-			if (arr_1[i] === arr_2[j]) {
-				check = 1;
-				break;
-			}
-			else
-				check = 0;
-			break;
-		}
-		if (check == 1) {
+// 1. nhập 2 mảng
+// 2. quét mảng 1. lấy tùng phần tử đã quét mảng 1 quét mảng 2. nếu phần tử mảng 1 != phần tử mảng 2. push phần tử khác nhau đó lên mang mới
 
-		// xóa phần tử bằng nhau
+
+// bài 3 
+
+// viết 2 vòng for lồng nhau. 
+
+for (i = 0;i<arr.length;i++) {
+	for (j = i + 1; j<arr.length; j++){
+		if (arr[i].length >= arr[j].length) {
+			// push arr[i] vào mảng mới
+		}
 	}
-	if (check == 0) {
-		newArr.push(arr[i],arr[j]); // cho phần tử khác nhau trong 2 mảng vào 1 mảng mới
-	}	
-}
-return newArr
-}
+} 
 
 // tổng hợp 
 
@@ -382,3 +377,7 @@ function giaiPhuongTrinh (a,b,c) {
 }
 
 giaiPhuongTrinh (1,2,3);
+
+// bài 5
+
+// chuyển number sang string. từ string chuyển sang mảng. sắp xếp từng phần tử trong mảng lại. chuyển từ mảng sang string. string sang number;
