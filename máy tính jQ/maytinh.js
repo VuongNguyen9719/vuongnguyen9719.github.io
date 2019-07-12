@@ -42,7 +42,7 @@ function pressMath (str) {
 	if (check_1 == "/") {$screen.html("/")}
 }
 
-// kết quả của phép toàn 
+// kết quả của phép toán
 
 function pressKetQua (str) {
 	if (check_1 == "+") {
