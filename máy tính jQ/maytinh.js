@@ -1,13 +1,12 @@
-$(function () {
-	
-let arr_1 = [];
-let display = "";
-let check_1;
-let check_2;
-let ketQua;
-let tinhGiaiThua = 1;
-let tinhCan;
-let tinhBinhPhuong;
+
+	let arr_1 = [];
+	let display = "";
+	let check_1;
+	let check_2;
+	let ketQua;
+	let tinhGiaiThua = 1;
+	let tinhCan;
+	let tinhBinhPhuong;
 
 // hiển thị
 
@@ -37,10 +36,10 @@ function pressMath (str) {
 	}
 	display = [];
 	if (check_1 == "+") {$screen.html("+")}
-	if (check_1 == "-") {$screen.html("-")}
-	if (check_1 == "x") {$screen.html("x")}
-	if (check_1 == "/") {$screen.html("/")}
-}
+		if (check_1 == "-") {$screen.html("-")}
+			if (check_1 == "x") {$screen.html("x")}
+				if (check_1 == "/") {$screen.html("/")}
+			}
 
 // kết quả của phép toán
 
@@ -103,4 +102,3 @@ function pressFunction (str) {
 		}
 	}
 } 
-});
