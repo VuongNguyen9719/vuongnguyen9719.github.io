@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="maytinh.css">
+</head>
+<body>
+	<div id="container">
+		<div id="display">0</div>
+		<div id="body">
+			<div class="body item1">
+				<button onclick="pressFunction('can')">&#8730;x</button>
+				<button onclick="pressFunction('giaiThua')">x&#33;</button>
+				<button onclick="pressFunction('binhPhuong')">x&#178;</button>
+				<button onclick="pressMath('/')">/</button>
+			</div>
+			<div class="body item2">
+				<button onclick="pressNumber('7')">7</button>
+				<button onclick="pressNumber('8')">8</button>
+				<button onclick="pressNumber('9')">9</button>
+				<button onclick="pressMath('x')">&times;</button>
+			</div>
+			<div class="body item3">
+				<button onclick="pressNumber('4')">4</button>
+				<button onclick="pressNumber('5')">5</button>
+				<button onclick="pressNumber('6')">6</button>
+				<button onclick="pressMath('-')">&minus;</button>
+			</div>
+			<div class="body item4">
+				<button onclick="pressNumber('1')">1</button>
+				<button onclick="pressNumber('2')">2</button>
+				<button onclick="pressNumber('3')">3</button>
+				<button onclick="pressMath('+')">+</button>
+			</div>
+			<div class="body item5">
+				<button onclick="pressAc('reset')">AC</button>
+				<button onclick="pressNumber('0')">0</button>
+				<button onclick="pressNumber('.')">.</button>
+				<button onclick="pressKetQua('=')">=</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="maytinh.js"></script>
+</body>
+</html>
