@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validate</title>
+	<link rel="stylesheet" type="text/css" href="validate.css">
+</head>
+<body>
+	<form style="width: calc(100%/2)">
+		
+		<fieldset>
+			<legend><h3>THÔNG TIN CÁ NHÂN</h3></legend>
+			<label for="username" class="login" style="margin-top: 10px;">Họ Tên : </label>
+			<input id="username" type="text" name="username" maxlength="20" placeholder="nguyễn duy vương"> <span id="span0">&#10004</span> <span id="span1">&#9888</span>
+			<br>
+			<label for="sdt" class="login">Số điện thoại : </label>
+			<input id="sdt" type="text" name="sdt" placeholder="0918353051"> <span id="span2">&#10004</span> <span id="span3">&#9888</span>
+			<br>
+			<label for="email" class="login">Email : </label>
+			<input id="email" type="text" name="email" placeholder="vuong9539@gmail.com"> <span id="span4">&#10004</span> <span id="span5">&#9888</span>
+		</fieldset>
+
+		<fieldset style="margin-top: 20px;">
+			<legend><h3>ĐÁNH GIÁ GIẢNG VIÊN</h3></legend>
+			<p id="p1">1. Giảng viên dạy bạn là ai?</p>
+			<select name="teacher">
+				<option value="Lương Minh Đức">Lương Minh Đức</option>
+				<option value="Nguyễn Thành Long">Nguyễn Thành Long</option>
+				<option value="Nguyễn Hàn Duy">Nguyễn Hàn Duy</option>
+				<option value="Phạm Thị Yến">Phạm Thị Yến</option>
+				<option value="Đặng Quang Huy">Đặng Quang Huy</option>
+			</select>
+			<p class="p2">2. Bạn đánh giá giảng viên thế nào?</p>
+			<input id="5sao" type="radio" name="vote" checked="checked" value="5 sao">
+			<label for="5sao">5 sao</label>
+			<input id="4sao" type="radio" name="vote" value="4 sao">
+			<label for="4sao">4 sao</label>
+			<input id="3sao" type="radio" name="vote" value="3 sao">
+			<label for="3sao">3 sao</label>
+			<input id="2sao" type="radio" name="vote" value="2 sao">
+			<label for="2sao">2 sao</label>
+			<input id="1sao" type="radio" name="vote" value="1 sao">
+			<label for="1sao">1 sao</label>
+			<p class="p2">3. Giảng viên có những ưu điểm nào sau đây? (có thể chọn nhiều hơn 1)</p>
+			<input id="advantage1" type="checkbox" name="advantage" value="Giảng dễ hiểu" checked="checked">
+			<label for="advantage1">Giảng dễ hiểu</label>
+			<input id="advantage2" type="checkbox" name="advantage" value="Tâm lý">
+			<label for="advantage2">Tâm lý</label>
+			<input id="advantage3" type="checkbox" name="advantage" value="Chuyên môn tốt">
+			<label for="advantage3">Chuyên môn tốt</label>
+			<p class="p2">4. Đánh giá thêm (tối đa 250 ký tự)</p>
+			<textarea id="comment" name="comment" maxlength="250"></textarea>
+			<input id="numberDown" type="text" name="numberDown">
+		</fieldset>
+		<input id="submit" type="submit" name="submit">
+
+	</form>
+	<script src="jquery-3.2.1.js"></script>
+	<script src="validate2a.js"></script>
+</body>
+</html>
