@@ -5,18 +5,17 @@ $(function() {
 	let $userNumber = $("#sdt");
 	let $userEmail = $("#email");
 
-	$userName.on('blur',changeName);
-	$userNumber.on('blur',changeNumber);
-	$userEmail.on('blur',changeEmail);
-
 // count down number
 
-	$("#comment").keyup(function(event) {
-		$('#numberDown').val(250 - $('#comment').val().length);
-		$("#numberDown").css("display","inline")
-	});
+$("#comment").keyup(function(event) {
+	$('#numberDown').val(250 - $('#comment').val().length);
+	$("#numberDown").css("display","inline")
+});
 
 // event blur
+$userName.on('blur',changeName);
+$userNumber.on('blur',changeNumber);
+$userEmail.on('blur',changeEmail);
 
 function changeName () {
 	if (!/[^A-Za-z0-9_@\.]|@{2,}|\.{5,}/.test($userName.val())) {
