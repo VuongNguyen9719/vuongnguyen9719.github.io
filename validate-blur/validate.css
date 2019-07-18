@@ -79,3 +79,7 @@ input#submit {
 span {
 	display: none;
 }
+#numberDown {
+	border: none;
+	display: none;
+}

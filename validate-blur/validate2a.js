@@ -9,6 +9,13 @@ $(function() {
 	$userNumber.on('input',changeNumber);
 	$userEmail.on('input',changeEmail);
 
+// count down number
+
+	$("#comment").keyup(function(event) {
+		$('#numberDown').val(250 - $('#comment').val().length);
+		$("#numberDown").css("display","inline")
+	});
+
 // event blur
 
 function changeName () {
@@ -91,5 +98,9 @@ $('form').on('submit', function(event) {
 	if (/[^A-Za-z0-9_@\.]|@{2,}|\.{5,}/.test($userName.val()) && /^[0-9]+$/.test($userNumber.val()) && /[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/igm.test($userEmail.val())) {
 		$("form").submit();
 	}
+
+	$("#comment").input(function(event) {
+		$('#numberDown').val(250 - $('#comment').val().length);
+	});
 });
 });
