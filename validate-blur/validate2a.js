@@ -5,9 +5,9 @@ $(function() {
 	let $userNumber = $("#sdt");
 	let $userEmail = $("#email");
 
-	$userName.on('input',changeName);
-	$userNumber.on('input',changeNumber);
-	$userEmail.on('input',changeEmail);
+	$userName.on('blur',changeName);
+	$userNumber.on('blur',changeNumber);
+	$userEmail.on('blur',changeEmail);
 
 // count down number
 
