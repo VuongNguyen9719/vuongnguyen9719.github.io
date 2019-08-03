@@ -1,0 +1,483 @@
+
+.logo {
+	float: left;
+	font-size: 30px;
+	font-family: Myriad Pro;
+	color: rgb(0, 0, 0);
+}
+
+.menu li {
+	float: right;
+	list-style: none;
+	padding-inline-start : 0px;
+	margin-left: 95px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "PlayfairDisplay";
+	color: rgb(98, 98, 98);
+}
+
+.container .rettangolo {
+	width: 100%;
+	margin-top: 73px;
+}
+
+/*responsive header
+*/
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1090px;
+		margin-top: 70px;
+		margin-bottom: 137px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+	.container {
+		max-width: 994px;
+		margin-top: 60px;
+		margin-bottom: 117px;
+	}
+	.logo {
+		font-size: 25px;
+	}
+	.menu li {
+		margin-left: 81px;
+		font-size: 12px;
+	}
+	.container .retangolo {
+		margin-top: 62px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.container {
+		max-width: 738px;
+		margin-top: 45px;
+		margin-bottom: 88px;
+
+	}
+	.logo {
+		font-size: 20px;
+	}
+	.menu li {
+		margin-left: 61px;
+		font-size: 9px;
+	}
+	.container .retangolo {
+		margin-top: 47px;
+	}
+}
+@media (min-width: 572px) and (max-width: 767px) {
+	.container {
+		max-width: 542px;
+		margin-top: 33px;
+		margin-bottom: 66px;
+	}
+	.logo {
+		font-size: 14px;
+	}
+	.menu li {
+		margin-left: 45px;
+		font-size: 7px;
+	}
+	.container .retangolo {
+		margin-top: 33px;
+	}
+}
+@media (min-width: 320px) and (max-width: 571px) {
+	.container {
+		max-width: 290px;
+		margin-top: 19px;
+		margin-bottom: 37px;
+	}
+	.logo {
+		font-size: 8px;
+	}
+	.menu li {
+		margin-left: 25px;
+		font-size: 4px;
+	}
+	.container .retangolo {
+		margin-top: 20px;
+	}
+}
+
+
+.photodiary #photodiary {
+	margin-left: 86px;
+	margin-right: 86px;
+	margin-bottom: 28px;
+	font-size: 14px;
+	font-family: "Ubuntu";
+	color: rgb(180, 173, 158);
+	text-transform: uppercase;
+}
+
+.photodiary #title {
+	margin-left: 86px;
+	margin-right: 86px;
+	margin-bottom: 35px;
+	font-size: 30px;
+	font-family: "PlayfairDisplay";
+	color: rgb(98, 98, 98);
+	line-height: 1.2;
+}
+
+.photodiary #content {
+	margin-left: 86px;
+	margin-right: 86px;
+	margin-bottom: 77px;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb(98, 98, 98);
+	line-height: 1.714;
+}
+
+/*responsive main photodiary
+*/
+@media (min-width: 1024px) and (max-width: 1199px) {
+	.photodiary #photodiary {
+		margin-left: 73px;
+		margin-right: 73px;
+		margin-bottom: 24px;
+		font-size: 12px;
+	}
+	.photodiary #title {
+		margin-left: 73px;
+		margin-right: 73px;
+		margin-bottom: 30px;
+		font-size: 26px;
+	}
+	.photodiary #content {
+		margin-left: 73px;
+		margin-right: 73px;
+		margin-bottom: 66px;
+		font-size: 12px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.photodiary #photodiary {
+		margin-left: 55px;
+		margin-right: 55px;
+		margin-bottom: 18px;
+		font-size: 9px;
+	}
+	.photodiary #title {
+		margin-left: 55px;
+		margin-right: 55px;
+		margin-bottom: 22px;
+		font-size: 20px;
+	}
+	.photodiary #content {
+		margin-left: 55px;
+		margin-right: 55px;
+		margin-bottom: 50px;
+		font-size: 9px;
+	}
+}
+@media (min-width: 572px) and (max-width: 767px) {
+	.photodiary #photodiary {
+		margin-left: 41px;
+		margin-right: 41px;
+		margin-bottom: 13px;
+		font-size: 7px;
+	}
+	.photodiary #title {
+		margin-left: 41px;
+		margin-right: 41px;
+		margin-bottom: 16px;
+		font-size: 15px;
+	}
+	.photodiary #content {
+		margin-left: 41px;
+		margin-right: 41px;
+		margin-bottom: 37px;
+		font-size: 7px;
+	}
+}
+@media (min-width: 320px) and (max-width: 571px) {
+	.photodiary #photodiary {
+		margin-left: 23px;
+		margin-right: 23px;
+		margin-bottom: 7px;
+		font-size: 4px;
+	}
+	.photodiary #title {
+		margin-left: 23px;
+		margin-right: 23px;
+		margin-bottom: 9px;
+		font-size: 8px;
+	}
+	.photodiary #content {
+		margin-left: 23px;
+		margin-right: 23px;
+		margin-bottom: 20px;
+		font-size: 4px;
+	}
+}
+
+#leave {
+	margin-left: 86px;
+	margin-right: 86px;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb(180, 173, 158);
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+.card-img-top{
+	width: 100%;
+}
+
+.card-deck {
+	margin-left: 71px;
+	margin-right: 71px;
+}
+
+.card {
+	border: none;
+	margin-top: 135px;
+}
+
+#card1{
+	margin-right: 45px;
+}
+
+#card3{
+	margin-right: 45px;
+}
+
+.card-body{
+	padding: 0px;
+}
+
+.card-title {
+	margin-top: 31px;
+	margin-bottom: 0px;
+}
+
+.card-text {
+	margin-top: 44px;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb(98, 98, 98);
+	line-height: 1.714;
+}
+
+.title_1 {
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb(180, 173, 158);
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.title_2 {
+	font-size: 30px;
+	font-family: "Myriad Pro";
+	color: rgb(98, 98, 98);
+	line-height: 1.2;
+
+}
+/*responsive main content
+*/
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+	#leave {
+		margin-left: 73px;
+		margin-right: 73px;
+		font-size: 12px;
+	}
+
+	.card-deck {
+		margin-left: 61px;
+		margin-right: 61px;
+	}
+
+	.card {
+		margin-top: 115px;
+	}
+
+	#card1{
+		margin-right: 38px;
+	}
+
+	#card3{
+		margin-right: 38px;
+	}
+
+	.card-title {
+		margin-top: 26px;
+		margin-bottom: 0px;
+	}
+
+	.card-text {
+		margin-top: 38px;
+		font-size: 12px;
+	}
+
+	.title_1 {
+		font-size: 12px;
+	}
+
+	.title_2 {
+		font-size: 25px;
+	}
+	.card-img-top{
+		width: 85%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	#leave {
+		margin-left: 55px;
+		margin-right: 55px;
+		font-size: 9px;
+	}
+
+	.card-deck {
+		margin-left: 46px;
+		margin-right: 46px;
+	}
+
+	.card {
+		margin-top: 86px;
+	}
+
+	#card1{
+		margin-right: 28px;
+	}
+
+	#card3{
+		margin-right: 28px;
+	}
+
+	.card-title {
+		margin-top: 19px;
+		margin-bottom: 0px;
+	}
+
+	.card-text {
+		margin-top: 28px;
+		font-size: 9px;
+	}
+
+	.title_1 {
+		font-size: 9px;
+		font-family: "Myriad Pro";
+	}
+
+	.title_2 {
+		font-size: 19px;
+	}
+	.card-img-top{
+		width: 64%;
+	}
+}
+@media (min-width: 572px) and (max-width: 767px) {
+	#leave {
+		margin-left: 41px;
+		margin-right: 41px;
+		font-size: 7px;
+	}
+
+	.card-deck {
+		margin-left: 34px;
+		margin-right: 34px;
+	}
+
+	.card {
+		margin-top: 64px;
+	}
+
+	#card1{
+		margin-right: 21px;
+	}
+
+	#card3{
+		margin-right: 21px;
+	}
+
+	.card-title {
+		margin-top: 14px;
+	}
+
+	.card-text {
+		margin-top: 21px;
+		font-size: 7px;
+	}
+
+	.title_1 {
+		font-size: 7px;
+	}
+
+	.title_2 {
+		font-size: 14px;
+	}
+	.card-img-top{
+		width: 48%;
+	}
+}
+@media (min-width: 320px) and (max-width: 571px) {
+	#leave {
+		margin-left: 23px;
+		margin-right: 23px;
+		font-size: 4px;
+	}
+
+	.card-deck {
+		margin-left: 19px;
+		margin-right: 19px;
+	}
+
+	.card {
+		margin-top: 36px;
+	}
+
+	#card1{
+		margin-right: 12px;
+	}
+
+	#card3{
+		margin-right: 12px;
+	}
+
+	.card-title {
+		margin-top: 8px;
+	}
+
+	.card-text {
+		margin-top: 12px;
+		font-size: 4px;
+	}
+
+	.title_1 {
+		font-size: 4px;
+	}
+
+	.title_2 {
+		font-size: 8px;
+	}
+	.card-img-top{
+		width: 27%;
+	}
+}
+
+.container-fluid {
+	background-color: #f0f0f0;
+	height: 287px;
+	text-align: center;
+}
+
+#sign {
+	padding-top: 83px;
+	font-size: 30px;
+	font-family: "Myriad Pro";
+	color: rgb(51, 51, 51);
+	line-height: 1.2;
+}
+
+input {
+	margin-top: 74px;
+	width: 400px;
+	height: 27px;
+}
