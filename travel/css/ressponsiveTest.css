@@ -1,0 +1,164 @@
+@media (min-width: 1440px) {
+.container {
+			max-width: 1301px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+		.nav-item {
+			padding: 0 20px;
+		}
+		.menuOffooter {
+			padding: 0 30px;
+			margin-top: 118px;
+		}
+
+	}
+@media (min-width: 768px) and (max-width: 1023px) {
+		.navbar,.headerOfheader,.supportOfheader,.searchOfheader {
+			margin-left: 50px;
+		}
+		.navbar {
+			padding-top: 28px;
+		}
+		.headerOfheader {
+			margin-top: 103px;
+		}
+		.supportOfheader {
+			margin-top: 10px;
+		}
+		.searchOfheader {
+			margin-top: 27px;
+		}
+		.btnOfsearch {
+			margin-top: 10px;
+		}
+		.headerOfbenefits, .cardOfbenefits {
+			margin-left: 20px;
+		}
+		.inspired {
+			margin-top: -150px;
+		}
+		.prefecture {
+			margin-top: 60px;
+		}
+		.headerOfprefecture {
+			margin-top: 0;
+		}
+		.supportOfprefecture {
+			margin-top: 10px;
+		}
+		.viewOfprefecture {
+			margin-top: 10px;
+		}
+		.headerOfprefecture,.supportOfprefecture,.viewOfprefecture {
+			margin-left: 30px;
+		}
+		.places {
+			margin-top: 70px;
+		}
+		.places1, .places2 {
+			margin-top: 30px;
+		}
+		.supportOfplaces {
+			margin-top: 10px;
+		}
+		.btnOfplaces {
+			margin-top: 10px;
+		}
+		.imgOfvideo {
+			margin-top: 20px;
+		}
+		.logo {
+			padding-top: 60px;
+			padding-bottom: 93px;
+			margin-left: 20px;
+		}
+		.menuOffooter {
+			padding: 0 10px;
+			padding-top: 60px;
+		}
+	}
+@media (min-width: 572px) and (max-width: 767px) {
+		.navbar,.headerOfheader,.supportOfheader,.searchOfheader {
+			margin-left: 10px;
+		}
+		.navbar {
+			padding-top: 10px;
+		}
+		.headerOfheader {
+			margin-top: 50px;
+		}
+		.supportOfheader {
+			margin-top: 10px;
+		}
+		.searchOfheader {
+			margin-top: 27px;
+		}
+		.btnOfsearch {
+			margin-top: 10px;
+		}
+		.headerOfbenefits, .cardOfbenefits {
+			margin-left: 5px;
+		}
+		.cardOfbenefits {
+			margin-top: 50px;
+			padding-bottom: 50px;
+		}
+		.inspired {
+			margin-top: -150px;
+		}
+		#imginspired1,#imginspired2,#imginspired3,#imginspired4,#imginspired5 {
+			padding:5px 0 0 0;
+		}
+		.row-inspired {
+			margin-top: 0;
+		}
+		.prefecture {
+			margin-top: 30px;
+		}
+		.headerOfprefecture {
+			margin-top: 0;
+		}
+		.supportOfprefecture {
+			margin-top: 10px;
+		}
+		.viewOfprefecture {
+			margin-top: 10px;
+		}
+		.headerOfprefecture,.supportOfprefecture,.viewOfprefecture {
+			margin-left: 5px;
+		}
+		.prefecture2 {
+			margin-top: 30px;
+		}
+		.places {
+			margin-top: 30px;
+		}
+		.places1, .places2 {
+			margin-top: 30px;
+		}
+		.supportOfplaces {
+			margin-top: 10px;
+		}
+		.btnOfplaces {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.imgOfvideo {
+			margin-top: 20px;
+		}
+		.logo {
+			padding-top: 30px;
+			padding-bottom: 93px;
+			margin-left: 5px;
+		}
+		.menuOffooter {
+			padding: 0 5px;
+			padding-top: 30px;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 571px) {
+
+}

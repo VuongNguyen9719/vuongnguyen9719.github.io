@@ -1,0 +1,133 @@
+.header{
+	color: #ffffff;
+	background-image: url(Hero.png)
+}
+.hero {
+	margin-left: 112px;
+	margin-right: 82px;
+}
+.Nav {
+	padding-top: 70px;
+}
+
+.nav-link {
+	color: #ffffff;
+	font-size: 18px;
+}
+.navbar-brand {
+	color: #ffffff;
+	font-size: 30px;
+}
+.nav-item {
+	margin-left: 83px;
+}
+.title {
+	margin-top: 188px;
+	width: 590px;
+	font-size: 50px;
+}
+#title {
+	color: #ffffff;
+}
+.support {
+	margin-top: 31px;
+	margin-right: 545px;
+	margin-bottom: 0px;
+}
+.search {
+	margin-top: 48px;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	width: 273px;
+	height: 60px;
+	background-color: transparent;
+	position: relative;
+	bottom: 0;
+}
+.one {
+	margin-right: 59px;
+}
+.button {
+	margin-left: 59px;
+	width: 171px;
+	height: 58px;
+	text-transform: uppercase;
+	font-size: 24px;
+	background-color: #1B7DFF;
+	color: #ffffff;
+	outline: none;
+	border :none;
+}
+.icon {
+	transform: translateX(-335px);
+}
+#icon {
+	transform: translateX(25px);
+}
+::placeholder {
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+}
+.position-relative {
+	position: relative;
+	padding-bottom: 200px;
+}
+
+.benefits {
+	margin-left: 31px;
+	margin-right: 31px;
+	background-color: #ffffff;
+	transform: translateY(-130px);
+	box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+
+.headerOfbenefits {
+	padding-top: 102px;
+	padding-bottom: 120px;
+	padding-left: 58px;
+	font-size: 16px;
+	color: #102746;
+}
+
+#row {
+	padding-left: 58px;
+}
+
+.titleOfbenefits {
+	padding-bottom: 42px;
+}
+
+.col-xl-4 {
+	padding-bottom: 118px;
+}
+.iconOfbenefits {
+	margin-left: 31px;
+}
+.supportOfbenefits {
+	text-transform: uppercase;
+	color: #006DFE;
+}
+
+.abc {
+	padding-left: 31px;
+	padding-right: 31px;
+	margin-bottom: 44px;
+}
+.headerOfinspired {
+	float: left;
+	color: #102746;
+	font-size: 35px;
+}
+#view {
+	float: right;
+	color: #006DFE;
+	font-size: 16px;
+}
+
+.picture {
+	float: left;
+	margin-bottom: 44px;
+}
+
+
