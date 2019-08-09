@@ -317,7 +317,6 @@ header {
 }
 /*video*/
 .video {
-	margin-top: 144px;
 	width: 100vw;
 	position: relative;
 	left: 50%;
@@ -325,11 +324,11 @@ header {
 	margin-top: -10px;
 	margin-left: -50vw;
 	margin-right: -50vw;
+	margin-top: 144px;
 }
 .imgOfvideo {
 	width: 100%;
 }
-/*footer*/
 footer {
 	background-color: #0E1D28;
 	width: 100vw;
